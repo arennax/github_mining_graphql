@@ -28,7 +28,7 @@ if __name__ == '__main__':
             print("median for CART_DE:", np.median(list_output))
             print("runtime for CART_DE:", run_time0)
 
-            with open("./results/scott_knott_results.txt", "w") as output:
+            with open("../results/scott_knott_results.txt", "w") as output:
                 output.write("CART_DE" + '\n')
                 for i in sorted(list_output):
                     output.write(str(i) + " ")
@@ -47,7 +47,7 @@ if __name__ == '__main__':
             print("median for ROME:", np.median(list_output))
             print("runtime for ROME:", run_time1)
 
-            with open("./results/scott_knott_results.txt", "a+") as output:
+            with open("../results/scott_knott_results.txt", "a+") as output:
                 output.write('\n\n' + "ROME" + '\n')
                 for i in sorted(list_output):
                     output.write(str(i) + " ")
@@ -66,7 +66,7 @@ if __name__ == '__main__':
             print("median for CART0:", np.median(list_output))
             print("runtime for CART0:", run_time2)
 
-            with open("./results/scott_knott_results.txt", "a+") as output:
+            with open("../results/scott_knott_results.txt", "a+") as output:
                 output.write('\n\n' + "CART0" + '\n')
                 for i in sorted(list_output):
                     output.write(str(i) + " ")
@@ -85,7 +85,7 @@ if __name__ == '__main__':
             print("median for RF:", np.median(list_output))
             print("runtime for RF:", run_time3)
 
-            with open("./results/scott_knott_results.txt", "a+") as output:
+            with open("../results/scott_knott_results.txt", "a+") as output:
                 output.write('\n\n' + "RF" + '\n')
                 for i in sorted(list_output):
                     output.write(str(i) + " ")
@@ -104,7 +104,7 @@ if __name__ == '__main__':
             print("median for SVR:", np.median(list_output))
             print("runtime for SVR:", run_time4)
 
-            with open("./results/scott_knott_results.txt", "a+") as output:
+            with open("../results/scott_knott_results.txt", "a+") as output:
                 output.write('\n\n' + "SVR" + '\n')
                 for i in sorted(list_output):
                     output.write(str(i) + " ")
@@ -123,7 +123,7 @@ if __name__ == '__main__':
             print("median for ABE0:", np.median(list_output))
             print("runtime for ABE0:", run_time5)
 
-            with open("./results/scott_knott_results.txt", "a+") as output:
+            with open("../results/scott_knott_results.txt", "a+") as output:
                 output.write('\n\n' + "ABE0" + '\n')
                 for i in sorted(list_output):
                     output.write(str(i) + " ")
