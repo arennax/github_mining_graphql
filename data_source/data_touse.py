@@ -14,9 +14,9 @@ def data_github_0():
     # df_raw = df_raw.head(206)       # for unarchived part
     # df_raw = df_raw.tail(200)       # for archived part
 
-    last_col = 'stars'
+    # last_col = 'stars'
     # last_col = 'commits'
-    # last_col = 'activities'
+    last_col = 'activities'
 
     cols = list(df_raw.columns.values)
     cols.pop(cols.index(last_col))

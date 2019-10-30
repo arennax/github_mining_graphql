@@ -1253,4 +1253,5 @@ if args.demo:
 else:
     main()
 
-##  type test_sk.txt| python2 sk_stats.py --text 30 --latex True
+##  type type stars_unarchived__sa.txt| python2 scott_knott_test.py --text 30 --latex True
+
