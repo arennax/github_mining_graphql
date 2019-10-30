@@ -102,5 +102,5 @@ with pd.option_context('display.max_rows', None, 'display.max_columns', None):  
 # temp0.to_csv('./output/test_0.csv', sep='\t', index=False)
 # temp0.to_excel('~./output/test_0.xlsx')
 
-with open('./output/test_1.csv', 'a+', newline="") as f:
+with open('../outputs/test_1.csv', 'a+', newline="") as f:
     temp0.to_csv(f, sep='\t', index=False, header=False)

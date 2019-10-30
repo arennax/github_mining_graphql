@@ -1,5 +1,5 @@
 import pandas as pd
-temp_df = pd.read_csv('./output/test_0_copy.csv', sep='\t')
+temp_df = pd.read_csv('../outputs/test_0_copy.csv', sep='\t')
 
 renamed_df = temp_df.rename(columns={"node.name": "name",
                         "node.url": "url",
@@ -27,5 +27,5 @@ renamed_df.loc[:205,'activities'] = 0
 with pd.option_context('display.max_rows', None, 'display.max_columns', None):
     print(renamed_df)
 
-with open('./output/df_final.csv', 'a+', newline="") as f:
+with open('../outputs/df_final.csv', 'a+', newline="") as f:
     renamed_df.to_csv(f, sep='\t', index=False, header=True)
