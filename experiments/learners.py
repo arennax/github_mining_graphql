@@ -3,7 +3,7 @@ from data_source.data_touse import *
 from experiments.useful_tools import KFold_df, normalize, mre_calc, sa_calc
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.ensemble import RandomForestRegressor
-from sklearn.svm import SVR
+from sklearn import svm
 from sklearn import neighbors
 import pdb
 
@@ -66,7 +66,7 @@ def SVM(dataset):
         test_input = test.iloc[:, :-1]
         test_actual_effort = test.iloc[:, -1]
 
-        model = SVR()
+        model = svm.SVR(gamma='scale')
         model.fit(train_input, train_actual_effort)
         test_predict_effort = model.predict(test_input)
         test_predict_Y = test_predict_effort

@@ -3,7 +3,6 @@ import time
 from experiments.learners import *
 from experiments.tuned_learners import *
 from data_source.data_touse import *
-from scipy.sparse import issparse
 
 data = data_github_0()
 repeats = 20

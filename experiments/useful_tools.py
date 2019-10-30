@@ -27,7 +27,7 @@ def normalize(df):
 def mre_calc(y_predict, y_actual):
     mre = []
     for predict, actual in zip(y_predict, y_actual):
-        mre.append(abs(predict - actual) / (actual))
+        mre.append(abs(predict - actual) / (actual+0.000000001))
     mMRE = np.median(mre)
     if mMRE == 0:
         mMRE = np.mean(mre)

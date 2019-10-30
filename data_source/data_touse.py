@@ -11,6 +11,9 @@ def data_github_0():
     df_raw = pd.read_csv('../outputs/df_final.csv', sep='\t')
     df_raw = df_raw.drop(columns=['name', 'url', 'pullRequests', 'totalIssues'])
 
+    # df_raw = df_raw.head(206)       # for unarchived part
+    # df_raw = df_raw.tail(200)       # for archived part
+
     last_col = 'stars'
     # last_col = 'commits'
     # last_col = 'activities'
@@ -23,5 +26,5 @@ def data_github_0():
 
 
 if __name__ == '__main__':
-    with pd.option_context('display.max_rows', 20, 'display.max_columns', None):
+    with pd.option_context('display.max_rows', None, 'display.max_columns', None):
         print(data_github_0())
