@@ -440,6 +440,7 @@ if __name__ == "__main__":
     # miner.get_data(repo_name, debug=False)
 
     temp_list = [
+        "PyGithub/PyGithub"
         "GoogleCloudPlatform/training-data-analyst",
         "paulhodel/jexcel",
         "hunkim/PyTorchZeroToAll",
@@ -461,7 +462,7 @@ if __name__ == "__main__":
         "chiphuyen/machine-learning-systems-design"
     ]
 
-    for i in range(19):
+    for i in range(20):
         repo_name = temp_list[i]
         miner = Miner(token)
         miner.get_data(repo_name, debug=True)
