@@ -16,6 +16,7 @@
 
 
 ## Problem C
+![meeting720 (3)](https://user-images.githubusercontent.com/16036156/87949734-6653b380-ca74-11ea-9bce-5162aab7adef.png)
 - Do we get enough literature review to find state-of-the-art? What algorithms are commonly explored but not used in our experiments?
 ### Potential Solution
 - Do an updated literature review and apply new methods into our benchmarks.
