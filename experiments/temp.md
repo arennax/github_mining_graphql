@@ -43,3 +43,7 @@
 ### Progress
 - For sample project "Zephyr", preliminary results show that first 20 month data for training can provide good performance on new contributor pridiction. [Link](https://docs.google.com/spreadsheets/d/1hQPBHSiP1cB1biBG_dqZU_VjO4IWsonhemOFKrB-nXE/edit#gid=1929673561)
 - For merged projects and transfered projects, experiment results are in progress. [Link](https://docs.google.com/spreadsheets/d/1O1oZ5j-786hZ-XKWFRX0sMm-P8RwHwKnZmJRXvXe-Kk/edit#gid=159027035)
+
+
+## Plans for ICSE/TSE
+With Problem A-D resolved, it would be a good idea to put those results together for a new paper about more comprehensive project health prediction, with old issue fixed, industrial expert validated, efficiency improved and benchmarked renewed.
